@@ -1,5 +1,5 @@
 <%-- 
-    Document   : signup.jsp
+    Document   : home.jsp
     Created on : Jun 13, 2024, 3:14:28 AM
     Author     : gauta
 --%>
@@ -24,10 +24,10 @@
                         <div class="card-content">
                             <h3 style="margin-top: 10px"; class="center-align">Register Here!!!!</h3>
                             <div class="form center-align">
-                                <form action="/register/SignUp" post="method">
-                                    <input type="text" name="user_name" placeholder="Enter your name">
-                                    <input type="password" name="user_password" placeholder="Enter your password">
-                                    <input type="email" name="user_email" placeholder="Enter your email">
+                                <form action="web" method="post">
+                                    <input type="text"  id ="user_name" name="user_name" placeholder="Enter your name">
+                                    <input type="password" id ="user_password" name="user_password" placeholder="Enter your password">
+                                    <input type="email" id="user_email" name="user_email" placeholder="Enter your email">
                                     <button type="submit" class="btn">submit</button>
                                 </form>
                             </div>
